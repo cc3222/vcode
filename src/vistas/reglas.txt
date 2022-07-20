@@ -1,0 +1,20 @@
+1.- El nombre de cualquier archivo debera empezar con letras minusculas 
+y en caso de ser dos palabras, juntarlas y empezar la segunda palabra con mayuscula
+
+ejemplo:
+formulario usuarios
+
+formularioUsuarios
+
+2.-El nombre de las referencias deberan se alucibas a lo que se trata el metodo
+
+ejemplo:
+un boton que envia los datos del registro de un usuarios
+usuario-set-registro
+
+un boton que elimina un usuario
+usuario-set-eliminacion
+
+una tabla que muestra los usuarios registrados
+usuario-get-registros
+
