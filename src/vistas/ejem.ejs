@@ -1,0 +1,23 @@
+<%- include('plantillas/cabeza.ejs')%>
+<div class="col-md-6 offset-md-3">
+    <div class="card-header">
+        <h1>tasks</h1>
+    </div>
+    <div class="card-footer">
+        <form action="new-contact" method="post">
+            <div class="form-group">
+                <input type="text" name="nombre" placeholder="Nombre" class="form-control" autofocus>
+            </div>
+            <div class="form-group">
+                <input type="text" name="apellidos" placeholder="Apellidos" class="form-control">
+            </div>
+            <div class="form-group">
+                <input type="text" name="email" placeholder="Email" class="form-control">
+            </div>
+            <BUtton class="btn btn-primary btn-block">
+                add
+            </BUtton>
+        </form>
+    </div>
+</div>
+<%- include('plantillas/pie.ejs')%>
