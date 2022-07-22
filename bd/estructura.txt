@@ -1,0 +1,55 @@
+maestros = {
+   nombre:"",
+   apellidos:"",
+   email:"", id
+   telefono:"",
+   escuelas:[],
+   titulos:[],
+   materias[],
+   calificacion:0
+}
+
+tutores = {
+   nombre:"",
+   apellidos:"",
+   email:"", id
+   telefono:"",
+   escuelas:,
+   materias[],
+   calificacion:0
+}
+
+escuela = {
+   nombre:"",
+   apellidos:"",
+   email:"", id
+   escuela,
+   telefono:"",
+   nivel:
+}
+alumnos = {
+   nombre:"",
+   apellidos:"",
+   email:"", id
+   telefono:"",
+   nivel:,
+   grado:,
+   escuela:,
+   materias:[],
+   puntos:0,
+}
+
+padres = {
+   nombre:"",
+   apellidos:"",
+   email:"", id
+   telefono:"",
+   escuela:[],
+   alumnos:[]
+}
+
+materias = {
+   nombre:"",
+   duracion: ,
+}
+

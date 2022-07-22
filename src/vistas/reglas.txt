@@ -17,4 +17,19 @@ usuario-set-eliminacion
 
 una tabla que muestra los usuarios registrados
 usuario-get-registros
-
+                <%for(var i = 0; i < data.length; i++) {%>
+                    <tr>
+                        <th scope="row">
+                            <%=i%>
+                        </th>
+                        <td>
+                            <%=data[i].nombre%>
+                        </td>
+                        <td>
+                            <%=data[i].apellidos%>
+                        </td>
+                        <td>
+                            <%=data[i].email%>
+                        </td>
+                    </tr>
+                <%}%>
