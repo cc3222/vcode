@@ -2,20 +2,36 @@ const express = require('express')
 const router = express.Router();
 const db = require('./objetos/contactos')
 const ejem = require('../controladores/ejem')
-/**
- * usuario-insert
- * 
- * add(id, data)
- * set
- * upt
- * getLista
- * get
-*/
+//Funciones de la pagina principal
 router.get('/',(req,res)=>{
     res.render('index',{
-        titulo:"VCode",
+        titulo:"Inicio",
     })
 })
+//
+
+router.get('/acerca-de',async (req,res)=>{
+    res.render('basicas/acerca_de',{
+        titulo:"Acerca de nosotros"
+    })
+})
+router.get('/materias',(req,res)=>{
+    res.render('basicas/materias',{ 
+        titulo:"materias"
+    })
+})
+router.get('/contactanos',(req,res)=>{
+    res.render('basicas/conocenos',{ 
+        titulo:"Contactanos"
+    })
+})
+
+router.get('/usuarios-registro',(req,res)=>{
+    res.render('basicas/registro',{ 
+        titulo:"registro"
+    })
+})
+
 
 //Funciones de ejemplo
 router.get('/ejem',ejem.render)
